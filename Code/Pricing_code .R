@@ -4,7 +4,7 @@ library(dplyr)
 library(arules)
 library(splitstackshape)
 options(max.print=10000000)
-setwd('D:/Emory/Marketing/Segmentation/Pernalonga')
+setwd('D:/Emory/Marketing/Segmentation/Pernalonga') 
 
 transac = fread("transaction_table.csv",header=TRUE)
 prod = fread("product_table.csv",header=TRUE)
